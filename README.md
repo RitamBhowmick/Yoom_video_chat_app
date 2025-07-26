@@ -1,41 +1,39 @@
 Deployment Link - https://yoom-video-chat-app.vercel.app/sign-in?redirect_url=https%3A%2F%2Fyoom-video-chat-app.vercel.app%2F
 
+# 🎥 Yoom – Real-Time Video Chat App
 
+A Zoom-inspired video chat application built with Stream.IO and React. Yoom enables users to create or join virtual rooms for high-quality, real-time video and audio communication — all within the browser, no downloads required.
 
+## ✨ Features
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+- 🔗 Create and join unique video rooms
+- 🎥 High-quality video & audio communication using *Stream.IO*
+- 🧑‍🤝‍🧑 Multiple participant support with dynamic video grid
+- 📴 Mute/unmute audio, turn camera on/off
+- 📲 Responsive UI for all screen sizes
+- 🛠 Clean and modular React
 
-## Getting Started
+---
 
-First, run the development server:
+## 🛠️ Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Frontend**: React.js, Tailwind CSS  
+- **Backend**: Node.js, Express.js  
+- **Real-Time Communication**: Stream.io  
+- **Deployment**: Vercel
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📦 Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Prerequisites
 
-## Learn More
+- Node.js (v16+ recommended)
+- npm or yarn
 
-To learn more about Next.js, take a look at the following resources:
+### Setup
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**Clone the repo**
+   ```bash
+   git clone https://github.com/RitamBhowmick/Yoom_video_chat_app.git
+   cd Yoom_video_chat_app
